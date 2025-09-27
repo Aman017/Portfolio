@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png"
 
 export const HERO_CONTENT = `I’m a passionate full stack developer who loves building web applications that are easy to use and look great. I enjoy working with front-end technologies like React.js and Next.js, and back-end tools like Node.js and MongoDB. As a fresher, I’m eager to learn, grow my skills, and create projects that provide a smooth and enjoyable experience for users.`;
 
@@ -39,6 +40,15 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "E-commerces",
+    image: project5,
+    description:
+      "Developed a full-stack e-commerce platform with a responsive customer frontend and admin dashboard, implementing CRUD operations, RESTful APIs for product, order, and user management, role-based permissions, MongoDB data persistence via Mongoose, optimized performance, and deployed frontend on Vercel and backend on Render.",
+    technologies: ["HTML", "CSS", "React.js", "ReactDOM", "MongooeDB","Express", "Node.js", "Axios", "Cors","React-Toastify",],
+    link: "https://ecomerce-forever-frontend.vercel.app/",
+    
+  },
   {
     title: "Finance-Tracker",
     image: project1,
